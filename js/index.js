@@ -118,3 +118,16 @@ ulIdxs.onclick=function(e){
 		}
 	}
 }
+//热门活动右侧板块 按钮效果
+var body=document.body;
+var lists=body.querySelectorAll(".cont1 .yi-ri .list li")
+for(var list of lists){
+	var list=this;
+	list.onclick=function(){
+		var span=body.querySelector(".cont1 .yi-ri .list li span")
+		if(span.className==""){
+			span.setAttribute("class","active");
+		}
+		console.log(span);
+	}
+}
