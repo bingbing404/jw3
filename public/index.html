@@ -99,7 +99,7 @@
     <!-- 大背景 -->
     <div class="bg">
         <!-- 轮播图 -->
-        <div class="lunbo">
+        <div class="lunbo" id="lunbo">
             <ul id="ul-imgs" style="width:4938px;margin-left: 0px;">
             	<li>
             		<a href="javascript:;">
@@ -154,7 +154,7 @@
         <div class="on">
             <div class="cont">
                 <div class="xiazai">
-                    <a href="javascript:;">
+                    <a href="download.html">
                         <img src="../images/donwload_on.png" alt="">
                     </a>
                 </div>
@@ -183,7 +183,7 @@
             <div class="top">
                 <span><a href="javascript:;">热门活动</a></span>
                 <ul>
-                    <li class="li1"><a href="javascript:;">正在进行</a></li>
+                    <li class="li1 active"><a href="javascript:;">正在进行</a></li>
                     <li class="li2"><a href="javascript:;">长期活动</a></li>
                     <li class="li3"><a href="javascript::">-—更多</a></li>
                     <li class="li4"><a href="javascript:;"> </a></li>
@@ -202,7 +202,7 @@
                             <p>敦煌礼盒限量开售</p>
                             <div>
                                 <span>07-17</span>
-                                <a href="javascript:;">前往 &gt;</a>
+                                <a href="javascript:;">前往</a>
                             </div>
                         </div>
                     </li>
@@ -214,7 +214,7 @@
                             <p>鹤影天青全新周边上架</p>
                             <div>
                                 <span>07-17</span>
-                                <a href="javascript:;">前往 &gt;</a>
+                                <a href="javascript:;">前往</a>
                             </div>
                         </div>
                     </li>
@@ -226,7 +226,7 @@
                             <p>翻唱大赛开启</p>
                             <div>
                                 <span>07-17</span>
-                                <a href="javascript:;">前往 &gt;</a>
+                                <a href="javascript:;">前往</a>
                             </div>
                         </div>
                     </li>
@@ -238,7 +238,7 @@
                             <p>夏季开衫二售开启</p>
                             <div>
                                 <span>07-17</span>
-                                <a href="javascript:;">前往 &gt;</a>
+                                <a href="javascript:;">前往</a>
                             </div>
                         </div>
                     </li>
@@ -247,7 +247,7 @@
         </div>
 
         <div class="yi-ri">
-            <ul class="list">
+            <ul class="list" id="lists">
                 <li><a href="javascript:;">最新</a>
                 <span class="active"></span></li>
                 <li><a href="javascript:;">新闻</a>
@@ -428,7 +428,7 @@
 			</div>	
 			<div class="list">
 				<ul>
-					<li>
+					<li class="active">
 						<a href="javascript:;">推荐</a>
 					</li>
 					<li>
@@ -521,7 +521,7 @@
 			</div>	
 			<div class="list">
 				<ul>
-					<li>
+					<li class="active">
 						<a href="javascript:;">周一</a>
 					</li>
 					<li>
@@ -589,7 +589,7 @@
 		<div class="man_nav">
 			<span>同人</span>
 			<ul class="list">
-				<li>
+				<li class="active">
 					<a href="javascript:;">漫画/插画</a>
 				</li>
 				<li>
@@ -699,7 +699,7 @@
 	<!-- 大内容 -->
 	<div class="what">
 		<!-- 合作板块 -->
-		<div class="join">
+		<div class="join" id="jo">
 			<div class="title">
 				联系/合作
 			</div>
@@ -708,11 +708,16 @@
 					<li class="active"><a href="javascript:;">商务合作</a></li>
 					<li><a href="javascript:;">广告合作</a></li>
 				</ul>
-				<div>
+				<div class="active">
 					<p>商务QQ:</p>
 					<p class="phone">3513366873</p>
 					<p>合作热线：0756-3335688-3064</p>
 					<p>E-mail: xsj-bc@kingsoft.com</p>
+				</div>
+				<div>
+					<p>广告资源合作联系方式如下</p>
+					<p class="phone">QQ：3560875221</p>
+					<p>E-mail：：xsj_3_ad@kingsoft.com</p>
 				</div>
 			</div>
 			<div class="mate">
@@ -728,10 +733,10 @@
 		</div>
 		<div class="deploy">	
 			<ul class="tab">
-				<li>台式机</li>
+				<li class="active">台式机</li>
 				<li>笔记本</li>
 			</ul>
-			<div>
+			<div class="active">
 				<ul>
 					<li class="active"><a href="javascript:;">最简画质</a></li>
 					<li><a href="javascript:;">高效画质</a></li>
@@ -742,6 +747,45 @@
 				<p>内存: 4G</p>
 				<p>显卡: GeForce GT 610</p>
 				<p>分辨率: 1280*720</p>
+				<p>系统: win7、win8、win10 64位系统</p>
+			</div>
+			<div>
+				<ul>
+					<li class="active"><a href="javascript:;">最简画质</a></li>
+					<li><a href="javascript:;">高效画质</a></li>
+					<li><a href="javascript:;">电影画质</a></li>
+					<li><a href="javascript:;">极致2K</a></li>
+				</ul>
+				<p>CPU : Intel(R) Core(TM) i5</p>
+				<p>内存: 8G</p>
+				<p>显卡: GeForce GTX 1050/1050TI</p>
+				<p>分辨率: 1920*1080</p>
+				<p>系统: win7、win8、win10 64位系统</p>
+			</div>
+			<div>
+				<ul>
+					<li class="active"><a href="javascript:;">最简画质</a></li>
+					<li><a href="javascript:;">高效画质</a></li>
+					<li><a href="javascript:;">电影画质</a></li>
+					<li><a href="javascript:;">极致2K</a></li>
+				</ul>
+				<p>CPU : Intel(R) Core(TM) i5</p>
+				<p>内存: 8G</p>
+				<p>显卡: GeForce GTX 1060</p>
+				<p>分辨率: 1920*1080</p>
+				<p>系统: win7、win8、win10 64位系统</p>
+			</div>
+			<div>
+				<ul>
+					<li class="active"><a href="javascript:;">最简画质</a></li>
+					<li><a href="javascript:;">高效画质</a></li>
+					<li><a href="javascript:;">电影画质</a></li>
+					<li><a href="javascript:;">极致2K</a></li>
+				</ul>
+				<p>CPU : Intel(R) Core(TM) i7</p>
+				<p>内存: 16G</p>
+				<p>显卡: GeForce GTX 1080</p>
+				<p>分辨率: 2560*1440</p>
 				<p>系统: win7、win8、win10 64位系统</p>
 			</div>
 		</div>
